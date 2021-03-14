@@ -1,0 +1,57 @@
+.header{
+    background-color: aqua;
+}
+h1{
+    border: floralwhite;
+    margin-left: 35%;
+    padding: 50px;
+}
+
+h2{
+    margin-left: 30%;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: crimson;
+}
+
+.sub{
+    position: relative;
+}
+
+.sub p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.sub:hover p{
+    opacity: 1;
+}
+
+.sub:hover img{
+    opacity: 0.22;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgray;
+}
+
+.title{
+    background-color: lightgray;
+}
+
+.youtube{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkturquoise;
+}
+
